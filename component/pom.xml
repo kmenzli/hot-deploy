@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <artifactId>platform</artifactId>
-    <groupId>org.exoplatform.platform</groupId>
-    <version>4.1.x-plf-stabilization-SNAPSHOT</version>
-  </parent>
-  <artifactId>platform-component</artifactId>
-  <packaging>pom</packaging>
-  <name>eXo Platform - Component</name>
-  <modules>
-    <module>common</module>
-    <module>edition</module>
-    <module>gadgets</module>
-    <module>upgrade</module>
-    <module>organization</module>
-    <module>webui</module>
-    <module>jmxclient</module>
-    <module>uxpnavigation</module>
-  </modules>
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>hot-deploy</artifactId>
+        <groupId>org.exoplatform.cluster</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>hot-deploy-component</artifactId>
+    <packaging>jar</packaging>
+    <name>eXo Platform - hot deploy component</name>
 </project>
